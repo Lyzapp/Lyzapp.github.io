@@ -29,7 +29,19 @@ let timer,timer1;
    }
   },200)
 
+function getCount() {
+           if (document.querySelectorAll(".x1rg5ohu.x1xaadd7.x1pg5gke.xo5v014.x1u28eo4.x2b8uid.x16dsc37.x18ba5f9.x1sbl2l.xy9co9w.x5r174s.x7h3shv.x1tsellj.x682dto.x1e01kqd.xpqt37d.x9bpaai.xk50ysn")){
+               var nodeList = document.querySelectorAll(".x1rg5ohu.x1xaadd7.x1pg5gke.xo5v014.x1u28eo4.x2b8uid.x16dsc37.x18ba5f9.x1sbl2l.xy9co9w.x5r174s.x7h3shv.x1tsellj.x682dto.x1e01kqd.xpqt37d.x9bpaai.xk50ysn");
+               var count = 0;
+               for (const nodeDiv of nodeList) {
+                   count = count + parseInt(nodeDiv.innerText);
+               }
+               return count
 
+
+           }
+
+      }
 
 
  timer = setInterval(() => {
@@ -46,7 +58,7 @@ let timer,timer1;
 
    var div = document.querySelector("#wa-popovers-bucket").parentNode
 
-   if(div.querySelector(".xcnrxux.xvmahel.xdounpk")){
+   if(div.querySelector(".xcnrxux.xcnrxux")){
 
      cfale1 = true
 
@@ -54,15 +66,15 @@ let timer,timer1;
 
 
       div.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.xeuugli.x2lwn1j.xozqiw3.x1oa3qoh.x12fk4p8.xh8yej3.xwzfr38").setAttribute("style",'display:none')
-      div.querySelector(".xcnrxux.xvmahel.xdounpk").setAttribute("style",'padding:0;background:#fff;min-width:100%;min-height: auto;')
+      div.querySelector(".xcnrxux.xcnrxux").setAttribute("style",'padding:0;background:#fff;min-width:100%;min-height: auto;')
      div.querySelector(".x1hql6x6.x1c3i2sq.xdod15v.x1iymm2a").setAttribute("style",'display:none')
-          div.querySelector(".x1lliihq").querySelector(".x12peec7.xui2vq6").setAttribute("style",'border:none;padding: 0;width: 100%;')
+        div.querySelector(".x1lliihq").querySelector(".x12peec7.xui2vq6").setAttribute("style",'border:none;padding: 0;width: 100%;')
      div.querySelector(".x1lliihq").querySelector(".x1tfhste").setAttribute("style",'display:none')
      div.querySelector(".x1lliihq").querySelector(".x1sy10c2").setAttribute("style",'display:none')
      div.querySelector(".x6s0dn4.x11fxgd9").setAttribute("style",'display:none')
 
      div.querySelector(".x1lliihq").querySelector(".x579bpy.xo1l8bm.xggjnk3.x1hql6x6.xyorhqc").setAttribute("style",'font-size:32px;margin-top:20px;')
-     div.querySelector(".x1lliihq").querySelector(".x579bpy.xo1l8bm.xggjnk3.x1hql6x6.xyorhqc").innerHTML='Use WARM on your computer'
+     div.querySelector(".x1lliihq").querySelector(".x579bpy.xo1l8bm.xggjnk3.x1hql6x6.xyorhqc").innerHTML='Use Whats on your computer'
 
 
 
@@ -72,7 +84,7 @@ let timer,timer1;
 
 
    var pp = div.querySelector(".x1lliihq").querySelector("#link-device-phone-number-code-screen-instructions").querySelector(".x1c3i2sq.x1hql6x6")
-      pp.innerHTML = pp.innerHTML.replace("WhatsApp", "WARM")
+      pp.innerHTML = pp.innerHTML.replace("WhatsApp", "Whats")
 
 
 
@@ -85,20 +97,20 @@ let timer,timer1;
      div.querySelector(".x1lliihq").parentNode.setAttribute("style",'flex-grow: 0;')
 
          div.querySelector(".x1lliihq").querySelector(".x1dnwe82.x8vdgqj").insertAdjacentHTML("afterbegin",
-                  '<div id="feiguanfangmm" style="font-size:13px;color: #DEDEDE;margin-top: 12px;text-align: center;margin-bottom:20px;">- 非官方应用 -</div></div>'
+                  '<div id="feiguanfangmm" style="font-size:13px;color: #DEDEDE;margin-top: 12px;text-align: center;margin-bottom:20px;">- 闈炲畼鏂瑰簲鐢� -</div></div>'
               );
 
-
    }
+
 
 
    },300)
 
 
 var time2 = setInterval(() => {
-    if (document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.xeuugli.x2lwn1j.xozqiw3.x1oa3qoh.x12fk4p8.xh8yej3.xwzfr38")){
-        document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.xeuugli.x2lwn1j.xozqiw3.x1oa3qoh.x12fk4p8.xh8yej3.xwzfr38").remove()
-    }
+   if (document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.xeuugli.x2lwn1j.xozqiw3.x1oa3qoh.x12fk4p8.xh8yej3.xwzfr38")){
+          document.querySelector(".x1c4vz4f.xs83m0k.xdl72j9.x1g77sc7.xeuugli.x2lwn1j.xozqiw3.x1oa3qoh.x12fk4p8.xh8yej3.xwzfr38").remove()
+      }
    if(!document.getElementsByClassName('_aigw')[1]){
        return
    }
@@ -118,12 +130,12 @@ var time2 = setInterval(() => {
 
        //document.getElementsByClassName('app-wrapper-web')[0].getElementsByClassName('two')[0]
        //    .getElementsByClassName('_2Ts6i')[0].style.minWidth = '100%'
+
        if (document.querySelector(".xbyj736")){
            document.querySelector(".xbyj736").style.display = "none";
-           window.webkit.messageHandlers.nativeBridge.postMessage('scanQrCode');
        }
-       if (document.querySelector(".x10l6tqk.x13vifvy.x17qophe.x78zum5.xh8yej3.x5yr21d.x6ikm8r.x10wlt62.x47corl")){
-           document.querySelector(".x10l6tqk.x13vifvy.x17qophe.x78zum5.xh8yej3.x5yr21d.x6ikm8r.x10wlt62.x47corl").style.width = '0'
+      if (document.querySelector(".x10l6tqk.x13vifvy.x17qophe.x78zum5.xh8yej3.x5yr21d.x6ikm8r.x10wlt62.x47corl")){
+          document.querySelector(".x10l6tqk.x13vifvy.x17qophe.x78zum5.xh8yej3.x5yr21d.x6ikm8r.x10wlt62.x47corl").style.width = '0'
        }
 
        // document.querySelector(".xbyj736").style.display = "none";
@@ -154,7 +166,19 @@ var time2 = setInterval(() => {
                    handleDivClick(document.querySelectorAll("div.x1i64zmx.x1emribx")[0]);
                }, 300);
            });
+           function sendMessage(){
+                   //鍙戝姩娑堟伅
+                   window.webkit.messageHandlers.nativeBridge.postMessage('sendMessage');
+               }
+           var time3 = setInterval(() => {
 
+               if (document.querySelector(".x1c4vz4f.x2lah0s.xdl72j9.xfect85.x1iy03kw.x1lfpgzf")){
+
+                   const button = document.querySelector(".x1c4vz4f.x2lah0s.xdl72j9.xfect85.x1iy03kw.x1lfpgzf")
+                   button.removeEventListener('click', sendMessage);
+                   button.addEventListener('click', sendMessage);
+           }
+           },200)
            if (document.getElementById("backleftid")) {
                document.getElementById("backleftid").remove();
            }
