@@ -1,6 +1,6 @@
 {
     "location": {
-        "cn": {
+        "zh-hans": {
             "title": "清理大师",
             "content": "FREE",
             "btnName": "安装"
@@ -10,7 +10,7 @@
             "content": "FREE",
             "btnName": "安装"
         },
-        "tc": {
+        "zh-hant": {
             "title": "清理大师",
             "content": "FREE",
             "btnName": "安装"
