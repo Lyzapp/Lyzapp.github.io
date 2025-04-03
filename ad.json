@@ -1,6 +1,6 @@
 {
     "location": {
-        "cn": {
+        "zh-hant": {
             "title": "Scan Chat专业版",
             "content": "免费",
             "btnName": "安装"
@@ -10,7 +10,7 @@
             "content": "FREE",
             "btnName": "Get"
         },
-        "tc": {
+        "zh-hans": {
             "title": "Scan Chat專業版",
             "content": "免費",
             "btnName": "安装"
