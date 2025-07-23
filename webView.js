@@ -1,4 +1,4 @@
-  let timer,timer1;
+let timer,timer1;
   var cfale = false
   var cfale1 = false
   var cfale2 = false
